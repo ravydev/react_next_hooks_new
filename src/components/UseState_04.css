@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+    
+
+button {
+    height: 2rem;
+    width: 10rem;
+
+    border: none;
+    font-weight:  bold;
+    background-color: rgb(0, 206, 0);
+
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+}
